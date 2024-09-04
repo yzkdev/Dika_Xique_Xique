@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 100px;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+header img:hover {
+    height: 150px;  
+}
+
+header h1 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: rgb(8, 201, 8);
+}
+
+li {
+    padding: 0.6em;
+    list-style: none;
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #D3D3D3;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: rgb(113, 248, 113);
+    color: #303030;
+    font-size: 35px;
+}
+
+button a {
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    color: #444444;
+}
+
+.container h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #303030;
+}
+
+footer {
+    font-family: "Roboto Mono", monospace;
+    font-size: 10px;
+    font-style: normal;
+}
+
+footer p {
+    text-align: center;
+    padding: 18px;
+    margin-top: 5px;
+}
